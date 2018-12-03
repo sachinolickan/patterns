@@ -1,0 +1,8 @@
+num=int(input("enter number of rows:"))
+for i in range(0,num):
+    for j in range(0,num-i-1): #to print space
+        print(end=" ")
+    for j in range(0,i+1):
+        print("*",end=" ")  #to print star
+    print()
+    
